@@ -1,0 +1,34 @@
+[
+    {
+        "address_components":
+            {
+                "long_name": "Praha - venkov",
+                "types": [
+                    "locality",
+                    "political"
+                ],
+                "short_name": "Brno"
+            },
+        "formatted_address": "Brno, Czechia",
+        "place_id": "ChIJEVE_wDqUEkcRsLEUZg-vAAQ",
+        "weather": {
+            "wind": {
+                "direction": "north",
+                "speed": "20"
+            },
+            "rain": {
+                "raining": true,
+                "intensity": "light",
+                "intensity-value":"2"
+            },
+            "clouds": {
+                "type": "cumulus"
+            },
+            "temperature": {
+                "min": "15",
+                "max": "18",
+                "current": "16.5"
+            }
+        }
+    }
+]
