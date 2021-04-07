@@ -21,14 +21,13 @@ def get_columns(filename):
 import json
 
 # Načtáme JSON soubor
-
 with open('weather1.json') as f:
-
     data = json.load(f)
 
 # Získáváme požadované informace ze slovníku uloženém v proměné data.
-
 # Pro snažší práci si vyrobíme nový slovník.
+
+print(data[0].keys())
 
 weather = data[0].get('weather')
 
