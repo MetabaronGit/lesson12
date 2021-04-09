@@ -16,7 +16,11 @@ try:
 except Exception:
     print("chyba!")
 
-text = soup.body.div.contents
-print(len(text))
-clear_content(text)
-print(len(text))
+# print(type(soup.p))
+# text = soup.contents
+# print(text)
+# clear_content(text)
+# print(len(text))
+
+for child in soup.body.children:
+    print(child)
